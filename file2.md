@@ -4,7 +4,7 @@ This is the second file!
 
 Code: `System.out.println("Hello World");`
 
-**This text is bolded**
+**This text is bolded**\
 *This text is italicized*
 
 
