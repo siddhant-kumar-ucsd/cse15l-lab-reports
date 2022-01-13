@@ -4,13 +4,13 @@
 
 1. The first step is to download Visual Studio Code by going to this link: [Visual Studio Code Download Page](https://code.visualstudio.com/)
 
-Once you open the page you will need to click this button:
+    Once you open the page you will need to click this button:
 
-![Image](DownloadButton.png)
+    ![Image](DownloadButton.png)
 
 2.  Clicking the **Download** button will take you to a page that shows the various machines for which you can download VS Code (as shown below)
 
-![Image](SelectMachine.png)
+    ![Image](SelectMachine.png)
 
 3.  Choose your machine type, and download the software
 
@@ -18,7 +18,7 @@ Once you open the page you will need to click this button:
 
 5.  Once everything is installed, a landing page will come up (as shown below)
 
-![Image](VSCodeLanding.png)
+    ![Image](VSCodeLanding.png)
 
 From here a new file can be created by clicking **New File...** or an existing project can be opened by clicking **Open...**
 
@@ -37,16 +37,18 @@ An important part of this class is being able to connect to a remote server. Fol
 
 2. Once you find your account you need to remember the username characters that correspond to you. Then create a password for your account.
 
-3. Once you've done that you will open your terminal as shown below:
-![Image](Terminal.png)
+3. Once you've done that you will open your terminal as shown below:  
+
+    ![Image](Terminal.png)
 
 4. Once you are in your terminal you will paste the following command into your command line:  
-`ssh cs15lwi22zz@ieng6.ucsd.edu` (replace `zz` with your username)  
+
+    `ssh cs15lwi22zz@ieng6.ucsd.edu` (replace `zz` with your username)  
 You will be prompted to input your password and once you do so you will be logged into the server and the following data should be shown: 
 
-![Image](ServerData.png)
+    ![Image](ServerData.png)
 
-5. Now we can execute commands on the server, as will be outlined in the next section
+5. Now we can execute commands on the server, as will be outlined in the next section.
 
 <br/>
 <br/>
@@ -105,27 +107,27 @@ In order to execute the `scp` command follow the steps outlined below:
 
 1. Create a new file on your local computer  
 
-![Image](createFile.png)
+    ![Image](createFile.png)
 
 2. Write some java code in your file   
 
-![Image](tempFile.png)
+    ![Image](tempFile.png)
 
 3. Execute the scp command  
 
-![Image](scpExecuted.png)
+    ![Image](scpExecuted.png)
 
-Now you will see that 100% of the file has been transferred over to the remote server
+    Now you will see that 100% of the file has been transferred over to the remote server
 
-If you log into the remote server you should see the file has been copied.
+    If you log into the remote server you should see the file has been copied.
 
-![Image](serverTransfer.png)
+    ![Image](serverTransfer.png)
 
-And if you compile and run the file, it should run properly on the server.  
+    And if you compile and run the file, it should run properly on the server.  
 
-![Image](tempFileRunning.png)
+    ![Image](tempFileRunning.png)
 
-You have successfully transferred files from your local machine to the server!
+    You have successfully transferred files from your local machine to the server!
 
 
 <br/>
@@ -141,7 +143,7 @@ A much faster way is using an SSH key which essentially auto logs you in.
 1. Generate a public and private key pair using the `ssh-keygen` command. You will then be prompted to input the location where you want to save the files (it is okay to use the default location they give you).
 
 
-![Image](sshgen.png)
+    ![Image](sshgen.png)
 
 2. Then you need to log into the server using  
  `ssh cs15lwi22zz@ieng6.ucsd.edu`  
@@ -158,7 +160,7 @@ A much faster way is using an SSH key which essentially auto logs you in.
 
 5. Once this is done you will be able to login without having to input your password as shown below:  
 
-![Image](sshLogin.png)
+    ![Image](sshLogin.png)
 
 
 <br/>
