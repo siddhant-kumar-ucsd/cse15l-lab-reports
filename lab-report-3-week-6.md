@@ -9,7 +9,7 @@
 <br/>
 ![Image](Lab_Report_3/streamlinedSSH.png)
 
-In the image above, I have access the `.ssh/config` file, which has given me the ability to create my own `ssh` alias, which I can link to my `ieng6.ucsd.edu` account in order to speed up my login process.
+In the image above, I have access the `.ssh/config` file, which has given me the ability to create my own `ssh` alias, which I can link to my `ieng6.ucsd.edu` account in order to speed up my login process. Here the file is being edited using the built in VIM editor on the Mac terminal.
 <br/>
 <br/>
 <br/>
