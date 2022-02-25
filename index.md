@@ -16,6 +16,11 @@
 <br/>
 <br/>
 
-> ## **Second Lab Report (Week 6)**
+> ## **Third Lab Report (Week 6)**
 
 [Lab Report 3](lab-report-3-week-6.html)
+
+
+> ## **Fourth Lab Report (Week 8)**
+
+[Lab Report 4](lab-report-4-week-8.html)
