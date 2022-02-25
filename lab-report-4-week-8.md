@@ -8,7 +8,7 @@
 
 **Other group's repository**
 
-[Repo](https://github.com/BasilThaddeus/markdown-parse)
+[Repo](https://github.com/garrett-lam/markdown-parse)
 <br/>
 <br/>
 
