@@ -9,7 +9,10 @@
 
 In order to find the diff between the reults of the two markdown-parse versions we have, we need to run the tests on all of the `.md` files and save the data into a `.txt` file that we can access later.
 
-In order to do this, we first add a line to the `script.sh` file that will outpu the name of the file we are testing. 
+In order to do this, we first add a line to the `script.sh` file that will output the name of the file we are testing. 
+
+This file will iterate through each of the `.md` files within the `test-files` directory. It will print out the name of the file, execute the `java MarkdownParse` command with the name of the file as the argument.
+
 
 The updated file is as shown below:
 
@@ -165,6 +168,6 @@ The relevant part of the code is shown below:
 <br/>
 <br/>
 
-The issue here is that there are nested parenthesis within the code, which renders the link invalid.
+The issue here is that there are nested parenthesis within the markdown, which renders the link invalid.
 
 One way to fix this issue is to have a `parenthesisTracker` stack, and we can push and pop according to whether we encounter a `)` or `(`. If the tracker already has a parenthesis in it, then the link is invalid because that implies that we have a nested structure.
